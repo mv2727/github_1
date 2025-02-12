@@ -1,0 +1,114 @@
+Here’s a list of commonly used Linux commands along with their uses:
+
+### File and Directory Management
+1. **ls**: Lists files and directories in the current directory.
+   - Example: `ls -l` (detailed list)
+
+2. **cd**: Changes the current directory.
+   - Example: `cd /path/to/directory`
+
+3. **pwd**: Prints the current working directory.
+
+4. **mkdir**: Creates a new directory.
+   - Example: `mkdir new_directory`
+
+5. **rmdir**: Removes an empty directory.
+   - Example: `rmdir empty_directory`
+
+6. **rm**: Removes files or directories.
+   - Example: `rm file.txt` (to remove a file), `rm -r directory_name` (to remove a directory and its contents)
+
+7. **cp**: Copies files or directories.
+   - Example: `cp source.txt destination.txt`
+
+8. **mv**: Moves or renames files or directories.
+   - Example: `mv oldname.txt newname.txt`
+
+9. **touch**: Creates an empty file or updates the timestamp of an existing file.
+   - Example: `touch newfile.txt`
+
+### File Viewing and Editing
+10. **cat**: Concatenates and displays file content.
+    - Example: `cat file.txt`
+
+11. **less**: Views file content one screen at a time.
+    - Example: `less file.txt`
+
+12. **nano**: A simple text editor for editing files in the terminal.
+    - Example: `nano file.txt`
+
+13. **vim**: A more advanced text editor.
+    - Example: `vim file.txt`
+
+### System Information
+14. **top**: Displays real-time system processes and resource usage.
+
+15. **htop**: An enhanced version of `top` with a more user-friendly interface (may need to be installed).
+
+16. **df**: Displays disk space usage.
+    - Example: `df -h` (human-readable format)
+
+17. **du**: Displays disk usage of files and directories.
+    - Example: `du -sh *` (summary of each item in the current directory)
+
+18. **free**: Displays memory usage.
+    - Example: `free -h` (human-readable format)
+
+19. **uname**: Displays system information.
+    - Example: `uname -a` (detailed information)
+
+### Networking
+20. **ping**: Tests connectivity to a host.
+    - Example: `ping google.com`
+
+21. **ifconfig**: Displays network interface configuration (deprecated in favor of `ip`).
+
+22. **ip**: Displays and manipulates routing, devices, policy routing, and tunnels.
+    - Example: `ip addr show`
+
+23. **curl**: Transfers data from or to a server using various protocols.
+    - Example: `curl http://example.com`
+
+24. **wget**: Downloads files from the web.
+    - Example: `wget http://example.com/file.zip`
+
+### Package Management (Debian-based)
+25. **apt-get**: A command-line tool for handling packages.
+    - Example: `sudo apt-get update` (updates package lists)
+
+26. **apt**: A more user-friendly interface for `apt-get`.
+    - Example: `sudo apt install package_name`
+
+### User Management
+27. **adduser**: Adds a new user.
+    - Example: `sudo adduser newuser`
+
+28. **deluser**: Removes a user.
+    - Example: `sudo deluser username`
+
+29. **passwd**: Changes a user's password.
+    - Example: `passwd username`
+
+### Permissions
+30. **chmod**: Changes file permissions.
+    - Example: `chmod 755 file.txt`
+
+31. **chown**: Changes file owner and group.
+    - Example: `chown user:group file.txt`
+
+### Searching and Finding
+32. **find**: Searches for files in a directory hierarchy.
+    - Example: `find /path -name filename`
+
+33. **grep**: Searches for patterns in files.
+    - Example: `grep 'search_term' file.txt`
+
+### Miscellaneous
+34. **echo**: Displays a line of text.
+    - Example: `echo "Hello, World!"`
+
+35. **history**: Displays the command history.
+
+36. **man**: Displays the manual for a command.
+    - Example: `man ls`
+
